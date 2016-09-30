@@ -1,0 +1,25 @@
+[{
+	"first_name": "Alistair",
+	"email": "alistair.hennessey@gmail.com",
+	"subject": "Hey Alistair!",
+	"title": "PhD",
+	"age": 52
+}, {
+	"first_name": "Klaus",
+	"email": "klaus.daimler@yahoo.com",
+	"title": "Research Assistant",
+	"subject": "Hello Klaus!",
+	"age": 48
+}, {
+	"first_name": "Ned",
+	"email": "ned.plimpton@aol.com",
+	"location": "Port-au-Patois",
+	"subject": "Hi Ned!",
+	"married": false
+}, {
+	"first_name": "Error Flynn",
+	"email": "@@error@<åäö>-!#%&.com",
+	"location": "Port-au-Patois",
+	"subject": "Hi Error 🔥!",
+	"married": false
+}]

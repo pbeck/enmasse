@@ -10,7 +10,7 @@ Created by Pelle Beckman, [@pbeck](http://twitter.com/pbeck)
 
 ## Installation
 
-You need to generate your own Google Gmail API Credentials – [there’s a great tutorial avilable at Google Developers](https://developers.google.com/gmail/api/quickstart/go).
+You need to generate your own Google Gmail API Credentials – [there’s a great tutorial available at Google Developers](https://developers.google.com/gmail/api/quickstart/go).
 
 Download binaries or build from source. Keep the `client_secret.json` in the same directory as binary. On the first run enmasse will ask you to open a browser and perform authentication.
 

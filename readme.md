@@ -45,41 +45,48 @@ Usage on linux or windows currently requires building from source.
 
 **addresses.json:**
 
-    [{
-	    "first_name": "Alistair",
-	    "email": "alistair.hennessey@gmail.com",
-	    "subject": "DevStickers",
-	    "promocode": "L327GF11"
-    }, {
-    	"first_name": "Klaus",
-	    "email": "klaus.daimler@gmail.com",
-	    "subject": "DevStickers",
-	    "promocode": "WH1S4KRS"
-    }, {
-	    "first_name": "Ned",
-	    "email": "ned.plimpton@gmail.com",
-	    "subject": "DevStickers",
-	    "promocode": "AAC568FH"
-    }]
+```
+[{
+    "first_name": "Alistair",
+    "email": "alistair.hennessey@gmail.com",
+    "subject": "DevStickers",
+    "promocode": "L327GF11"
+}, {
+	"first_name": "Klaus",
+    "email": "klaus.daimler@gmail.com",
+    "subject": "DevStickers",
+    "promocode": "WH1S4KRS"
+}, {
+    "first_name": "Ned",
+    "email": "ned.plimpton@gmail.com",
+    "subject": "DevStickers",
+    "promocode": "AAC568FH"
+}]
+```
 
 **template.txt:**
 
-    Hey {{ .first_name }}
 
-	DevStickers is an iMessage stickers pack for developers. It’s almost certainly the only app on the App Store featuring a blue screen of death, and it’s one of the most popular sticker packs on ProductHunt!
+```
+Hey {{ .first_name }}
 
-	As you’re a programmer I thought you might find it funny – if you do, a tweet would mean 	the world! 
+DevStickers is an iMessage stickers pack for developers. It’s almost certainly
+the only app on the App Store featuring a blue screen of death, and it’s one
+of the most popular sticker packs on ProductHunt!
 
-	{{ if .promocode }}Use this promo code: {{ .promocode }} {{ end }}
+As you’re a programmer I thought you might find it funny!
+If you do, a tweet would mean the world! 
 
-	Here’s the App Store link: https://itunes.apple.com/us/app/id1154505006 
+{{ if .promocode }}Use this promo code: {{ .promocode }} {{ end }}
 
-	Best regards,
+Here’s the App Store link: https://itunes.apple.com/us/app/id1154505006 
 
-	Pelle
+Best regards,
 
-	pelle@beckman.io
+Pelle
 
+pelle@beckman.io
+```
 
     
 ## Flags

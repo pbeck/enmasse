@@ -1,16 +1,14 @@
 # enmasse
 
-`enmasse` (/ɑn ˈmæs/) is a utility application for creating GMail draft emails compiled from [golang templates](https://golang.org/pkg/text/template/) and JSON data.
+`enmasse` (/ɑn ˈmæs/) is a utility application for creating Gmail draft emails compiled from [golang templates](https://golang.org/pkg/text/template/) and JSON data.
 
 enmasse is a very useful tool when you need to write almost-identical emails for a large group of recipients, but using a newsletter service like MailChimp would be overdoing it. Journalist reachouts, job applications, or promo code distribution are great usage examples.
-
-Read more about enmasse at [beckman.io/enmasse](http://beckman.io/enmasse)
 
 ![image](./enmasse-video.gif)
 
 Created by Pelle Beckman, [beckman.io](http://beckman.io)
 
-**ProTip:** use [Boomerang for GMail](http://www.boomeranggmail.com/) for scheduling emails.
+**ProTip:** use [Boomerang for Gmail](http://www.boomeranggmail.com/) for scheduling emails.
 
 **Please don’t use enmasse for sending spam!**
 
